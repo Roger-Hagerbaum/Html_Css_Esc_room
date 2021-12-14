@@ -1,0 +1,22 @@
+{
+  "name": "html_css_esc_room",
+  "version": "1.0.0",
+  "description": "Esc room site",
+  "main": "index.html",
+  "scripts": {
+    "watch": "sass --watch --no-source-map sass/main.scss css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Roger-Hagerbaum/Html_Css_Esc_room.git"
+  },
+  "author": "Roger Hägerbaum",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Roger-Hagerbaum/Html_Css_Esc_room/issues"
+  },
+  "homepage": "https://github.com/Roger-Hagerbaum/Html_Css_Esc_room#readme",
+  "devDependencies": {
+    "sass": "^1.45.0"
+  }
+}
