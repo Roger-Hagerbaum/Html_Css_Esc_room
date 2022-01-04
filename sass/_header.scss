@@ -1,0 +1,32 @@
+
+li {
+    list-style: none;
+}
+header{
+    background: #011827;
+    display: flex;
+    width: 100%;
+}
+#logo{
+    width: 128px;
+    height: 82px;
+    margin:  14px;
+}
+#headerText{
+    color: white;
+   margin-top: 10px;
+}
+.headerText{
+    width: 70px;
+    
+} 
+.nav{
+    display: none;
+}
+.hero{
+    width: 100%;
+}
+.hero img{
+    width: 100%;
+    height: auto;
+}
