@@ -1,6 +1,6 @@
 
 header{
-    background: #011827;
+    background: $darkBlue;
     display: flex;
     width: 100%;
 
@@ -11,7 +11,7 @@ header{
     margin:  14px;
 }
 #headerText{
-    color: white;
+    color: $white;
    margin-top: 10px;
 }
 .headerText{
