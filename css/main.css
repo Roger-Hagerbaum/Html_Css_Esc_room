@@ -13,19 +13,16 @@ header {
   display: flex;
   width: 100%;
 }
-
-#logo {
+header #logo {
   width: 128px;
   height: 82px;
   margin: 14px;
 }
-
-#headerText {
+header #headerText {
   color: white;
   margin-top: 10px;
 }
-
-.headerText {
+header .headerText {
   width: 70px;
 }
 
