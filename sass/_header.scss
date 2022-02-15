@@ -2,20 +2,23 @@
 header{
     background: $darkBlue;
     display: flex;
-    width: 100%;
-
-
+  
 #logo{
     width: 128px;
     height: 82px;
     margin:  14px;
 }
-#headerText{
-    color: $white;
-   margin-top: 10px;
-}
+
 .headerText{
+    color: $white;
+    margin-top: 10px;
     width: 70px;
    
 } 
+@include desktop{
+   .headerText{
+    width: auto;
+    padding-top: 3.5rem;
+   }
+}
 }
