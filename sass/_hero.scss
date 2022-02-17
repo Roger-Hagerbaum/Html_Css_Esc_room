@@ -1,9 +1,26 @@
-
-.hero{
-    width: 100%;
-}
+  
 .hero img{
     width: 100%;
     height: auto;
 }
-  
+.heroLinks{
+   padding-top: 1.6rem;
+   display: flex;
+   flex-direction: column-reverse;
+   align-items: center;
+}
+.heroOnSite{
+    background-color: $lightBlue;
+    padding: 1rem 2.6rem;
+    border-radius: 0.2rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: $black;
+    text-decoration: none;
+}
+.heroOnline{
+    color: $blue;
+    padding: 1.6rem;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
