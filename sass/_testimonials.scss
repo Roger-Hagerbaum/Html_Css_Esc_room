@@ -1,23 +1,29 @@
-.testimonialStory{
-   display: none; 
-   @include screenSpace;
-   margin: 1.2rem 0 5rem;
+.testimonialStory {
+  display: none;
+  @include screenSpace;
+  margin: 1.2rem 0 5rem;
+ 
 
-   &:first-child{
-       display: grid;
-       
-   }
-  grid-template-columns: 96px auto;
-  column-gap: 2rem;
+  &:first-child {
+    display: grid;
+    grid-template-columns: 96px auto;
+    column-gap: 2rem;
+  }
 
-  blockquote{
+  blockquote {
     font-style: italic;
     font-size: 1.3rem;
   }
-  cite{
-      grid-column: 2/3;
-      font-style: normal;
-    
-    }
-
+  cite {
+    grid-column: 2/3;
+    font-style: normal;
+  }
+  @include desktop {
+    display: grid;
+  }
+}
+.testimonialContainer{
+  @include desktop{
+ display: flex;
+}
 }
