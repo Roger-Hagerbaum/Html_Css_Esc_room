@@ -3,3 +3,8 @@
         @content;
     }
 }
+
+@mixin screenSpace {
+    padding: 1.2rem;
+    
+}
