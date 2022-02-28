@@ -40,7 +40,7 @@
     box-shadow: 0 0 0.6rem rgba($gray, 1);
     margin: 1rem;
     overflow: hidden;
-
+    max-width: 363px;
     img {
       width: 100%;
       height: auto;
@@ -100,17 +100,24 @@
   .popular {
     display: flex;
     flex-direction: column;
-    text-align: center;
+   
     h1{
       padding-bottom: 1.4rem;
+      text-align: center;
     }
     .challengersContainer {
       display: flex;
       justify-content: center;
       
     }
+    .starContainer{
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+      padding: 0;
+    }
     .challengerCard {
-      max-width: 250px;
+      max-width: 363px;
     }
     .popularLinks{
       display: flex;
