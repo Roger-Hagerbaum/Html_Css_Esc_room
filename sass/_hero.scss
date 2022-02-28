@@ -9,7 +9,7 @@
    flex-direction: column-reverse;
    align-items: center;
 }
-.heroOnSite{
+.btnOnSite{
     background-color: $lightBlue;
     padding: 1rem 2.6rem;
     border-radius: 0.2rem;
@@ -18,7 +18,7 @@
     color: $black;
     text-decoration: none;
 }
-.heroOnline{
+.btnOnline{
     color: $blue;
     padding: 1.6rem;
     font-weight: bold;
@@ -33,11 +33,11 @@
         position: relative;
         top: -1.7rem;
         }
-    .heroOnSite{
+    .btnOnSite{
         margin-left: 1rem;
         padding: 0.85rem 2.6rem;
     }
-    .heroOnline{
+    .btnOnline{
     background-color: $red;
     padding: 0.85rem 2.6rem;
     border-radius: 0.2rem;
