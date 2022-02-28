@@ -1,0 +1,82 @@
+.popular{
+  h1{
+    font-size: 1.9rem;
+    font-weight: normal;
+    margin: 1rem;
+  }
+
+}
+.challengersContainer{
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+ 
+.challengerCard {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 85vw;
+  border-radius: 1rem;
+  background-color: $white;
+  box-shadow: 0 0 1rem rgba($gray, 0.5);
+  margin: 1rem;
+  overflow: hidden;
+ 
+  img {
+    width: 100%;
+    height: auto;
+  }
+   *:not(img){
+      margin: 0 1rem;
+  
+  }
+  h3 {
+    font-size: 1.7rem;
+    font-weight: normal;
+  }
+  p{
+    margin: 1rem;
+    font-size: 0.8rem;
+
+  }
+  small{
+    margin: 0;
+  }
+  a{
+    
+    text-decoration: none;
+    align-self: flex-end;
+    background-color: $red;
+    padding: 0.9rem 2.3rem;
+    border-radius: 0.2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: $white;
+    text-decoration: none;
+  }
+  .starContainer{
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  .starList{
+   display: flex;
+   
+  }
+  .starOn{
+    width: 1rem;
+    height: 1rem;
+    margin: 0 0.1rem;
+    background-image: url("../img/starOn.png");
+    background-repeat: no-repeat;
+  }
+  .starOff{
+    width: 1rem;
+    height: 1rem;
+    margin: 0 0.1rem;
+    background-image: url("../img/starOff.png");
+    background-repeat: no-repeat;
+  }
+}
+}
+
+ 

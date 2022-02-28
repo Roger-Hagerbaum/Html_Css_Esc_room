@@ -2,7 +2,7 @@
   display: none;
   @include screenSpace;
   margin: 1.2rem 0 5rem;
- 
+  
 
   &:first-child {
     display: grid;
@@ -25,5 +25,8 @@
 .testimonialContainer{
   @include desktop{
  display: flex;
+ max-width: 1064px;
+ margin: 0 auto;
+ 
 }
 }
