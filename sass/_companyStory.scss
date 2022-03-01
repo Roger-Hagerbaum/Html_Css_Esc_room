@@ -1,0 +1,18 @@
+.companyStory{
+    background-color: $darkBlue;
+    color: $white;
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 5rem 1rem;
+
+    p{
+        padding-bottom: 3rem;
+    }
+    
+    a{
+        text-decoration: none;
+        border: 2px solid $lightBlue;
+        padding: 0.8rem 2rem;
+        color: $lightBlue;
+    }
+}
