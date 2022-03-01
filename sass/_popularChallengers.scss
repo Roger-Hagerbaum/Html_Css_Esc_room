@@ -26,7 +26,7 @@
      font-size: 0.9rem;
  }
 }
-.challengersContainer {
+.popularChallengerContainer {
   display: flex;
   flex-wrap: nowrap;
   overflow-x: auto;
@@ -105,7 +105,7 @@
       padding-bottom: 1.4rem;
       text-align: center;
     }
-    .challengersContainer {
+    .popularChallengerContainer {
       display: flex;
       justify-content: center;
       
