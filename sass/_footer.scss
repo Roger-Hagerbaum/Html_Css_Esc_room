@@ -1,3 +1,26 @@
 .footer{
-    background-color: $white;
+    padding: 4rem 1rem;
+    background-color: $darkBlue;
+    color: $white;
+    font-size: 1rem;
+    
+    & > section {
+        margin: 0 0 2rem;
+    }
+
+    h4{
+        font-size: 1rem;
+        margin-bottom: 0.3rem;
+    }
+
+    
+
+    ul{
+        margin: 0 0 1rem;
+    }
+    a{
+        text-decoration: $white;
+        color: $white;
+        
+    }
 }
