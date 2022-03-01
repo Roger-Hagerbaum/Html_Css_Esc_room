@@ -31,7 +31,7 @@
   flex-wrap: nowrap;
   overflow-x: auto;
 
-  .challengerCard {
+  .popularChallengerCard {
     display: flex;
     flex-direction: column;
     flex: 0 0 85vw;
@@ -116,7 +116,7 @@
       margin: 0;
       padding: 0;
     }
-    .challengerCard {
+    .popularChallengerCard {
       max-width: 363px;
     }
     .popularLinks{
