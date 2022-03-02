@@ -1,26 +1,54 @@
-.footer{
-    padding: 4rem 1rem;
-    background-color: $darkBlue;
-    color: $white;
-    font-size: 1rem;
-    
+.footer {
+  padding: 4rem 0;
+  
+  background-color: $darkBlue;
+  color: $white;
+  font-size: 1rem;
+
+  .footerContainer{
+    margin: 0 1rem;
     & > section {
-        margin: 0 0 2rem;
-    }
+    margin: 0 0 2rem;
+  }
+  }
+  
 
-    h4{
-        font-size: 1rem;
-        margin-bottom: 0.3rem;
-    }
+  h4 {
+    font-size: 1rem;
+    margin-bottom: 0.3rem;
+  }
 
-    
+  ul {
+    margin: 0 0 1rem;
+  }
+  a {
+    text-decoration: $white;
+    color: $white;
+  }
+  @include desktop {
+    margin-top: 10rem;
+    .footer{
+      padding: 4rem 0;
+    }
+    .footerContainer {
+      max-width: 1283px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 1rem;
+      padding-top: 4rem;
 
-    ul{
-        margin: 0 0 1rem;
+      .aboutUs {
+        grid-column: 2/6;
+      }
+
+      .siteMap {
+        grid-column: 8/10;
+      }
+
+      .followUs {
+        grid-column: 10/12;
+      }
     }
-    a{
-        text-decoration: $white;
-        color: $white;
-        
-    }
+  }
 }

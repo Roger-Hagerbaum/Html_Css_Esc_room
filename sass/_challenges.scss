@@ -30,7 +30,7 @@
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 3rem auto auto auto 3rem;
-    max-width: 1000px;
+    max-width: 1283px;
     margin: 0 auto;
 
     img {
@@ -40,35 +40,38 @@
       object-fit: cover;
     }
     h2 {
+      margin: 1rem 0;
       grid-column: 8/12;
       grid-row: 2/3;
     }
     p {
-      grid-column: 8/12;
+      margin: 1rem 0;
+      grid-column: 8/13;
       grid-row: 3/4;
     }
     a {
+      margin: 1rem 0;
       justify-self: left;
       grid-column: 8/12;
       grid-row: 4;
     }
     &:nth-child(even) {
       img {
-        grid-column: 7/12;
+        grid-column: 7/13;
         grid-row: 1/6;
         height: 100%;
         object-fit: cover;
       }
       h2 {
-        grid-column: 1/6;
+        grid-column: 2/6;
         grid-row: 2/3;
       }
       p {
-        grid-column: 1/6;
+        grid-column: 2/6;
         grid-row: 3/4;
       }
       a {
-        grid-column: 1/6;
+        grid-column: 2/6;
         grid-row: 4/5;
       }
     }
