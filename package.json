@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Roger-Hagerbaum/Html_Css_Esc_room#readme",
   "devDependencies": {
+    "cypress": "^10.6.0",
     "sass": "^1.45.0"
   }
 }
