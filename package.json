@@ -4,7 +4,8 @@
   "description": "Esc room site",
   "main": "index.html",
   "scripts": {
-    "watch": "sass --watch --no-source-map sass/main.scss css/main.css"
+    "watch": "sass --watch --no-source-map sass/main.scss css/main.css",
+    "cypress:open": "cypress open"
   },
   "repository": {
     "type": "git",
